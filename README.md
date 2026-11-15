@@ -21,7 +21,6 @@
 * **Universal GGUF Support**: Compatible with virtually any open-source model architecture supported by `llama.cpp` (e.g., Qwen, Llama 3, Mistral, Command R, Phi).
 * **Dual-GPU Acceleration**: Split heavy model layers across two Tesla T4 GPUs (`--tensor-split 0.5,0.5`) to handle large-scale weights seamlessly.
 * **Massive Context Support**: Run up to **128k+ tokens** (`--ctx-size 131072`) with automated key-value cache quantization (`--cache-type-k q4_0 --cache-type-v q4_0`) to optimize VRAM consumption.
-* **Session Persistence**: Automatically save and restore model chat states and sessions directly to disk (`--session /kaggle/working/chat_session.bin`).
 * **Remote API & WebUI**: Built-in OpenAI-compatible `/v1` endpoint for seamless integration with IDE extensions (Cursor, VS Code / Continue, Aider) alongside a native browser WebUI.
 * **Browser Terminal (`ttyd`)**: Integrated web terminal access on port 9000 for managing files and server execution on the fly.
 
