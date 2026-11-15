@@ -1,5 +1,5 @@
 
-# LlamaServerKaggle
+# LlamaKaggleRunner
 
 **Deploy and run** any GGUF-based large language model (such as [Qwen](https://github.com/QwenLM/Qwen), Llama, Mistral, Gemma, and others) supported by **[llama.cpp](https://github.com/ggerganov/llama.cpp)** on dual Tesla T4 Kaggle/Colab instances with high-performance GPU offloading.
 
